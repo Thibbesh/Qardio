@@ -1,16 +1,16 @@
-# IoT Platform APIs
+# Temperature
 
 
 ###### Motivation
 
-This project is an assignment. Implemented code would be a nice example of real-time IoT events and how platform APIs capture and present data. In this assignment, IoT device refers to temperature sensor.
+This project is an assignment. Implemented code would be a nice example of real-time events and how platform APIs capture and present data. In this assignment, device refers to temperature sensor.
 
 
 ### Features
 
-IoT Platform APIs provides
+Temperature APIs provides
 
-- Collect IoT device data using HTTP endpoints.
+- Collect device data using HTTP endpoints.
 
 - Saving data point in InfluxDB.
 
@@ -140,3 +140,4 @@ mvn clean test-compile test
 - Generate and check OWASP report.
 - Improve code coverage.
   * Apache Kafka topic listener code is not covered with tests.
+
